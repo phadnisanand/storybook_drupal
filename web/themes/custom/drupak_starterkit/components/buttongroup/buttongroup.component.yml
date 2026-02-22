@@ -1,0 +1,8 @@
+name: ButtonGroup
+props:
+type: object
+properties:
+  buttons:
+    type: text
+    title: The links
+    description: Links

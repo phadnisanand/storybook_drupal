@@ -1,0 +1,7 @@
+<div class="buttongroup--wrapper">
+{% for button in buttons %}
+  
+    {% include 'drupak_starterkit:button' with {'buttonType': button.buttonType,'linkText': button.linkText, 'link': button.link, 'real': true } %}
+  
+{% endfor %}           
+</div>

@@ -1,0 +1,6 @@
+<div x-data="{ open: false }">
+  <button class="btn" x-on:click="open = ! open">{{ linkText }}</button>
+  <div x-show="open">
+      {% block content %}{% endblock %}
+  </div>
+</div>

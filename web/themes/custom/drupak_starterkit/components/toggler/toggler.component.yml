@@ -1,0 +1,16 @@
+Contents of toggler.component.yml:
+name: Toggler
+props:
+type: object
+required:
+  - linkText
+properties:
+  linkText:
+    type: text
+    title: The link Text
+    description: Text to click on.
+slots:
+# Content to display in the accordion.
+content:
+  title: Content of the toggle button.
+  description: Content of the toggle button.

@@ -1,0 +1,19 @@
+name: Accordion
+props:
+type: object
+required:
+  - color
+properties:
+  maintitle:
+    type: text
+    title: Main Title of the ACCORDION
+    description: The Main title of the accordion to click on.
+  color:
+    type: string
+    title: Color
+    description: "Color of the accordion."
+slots:
+# Content to display in the accordion.
+accordion:
+  title: Content of the accordion.
+  description: The whole accordion

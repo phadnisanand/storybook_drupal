@@ -1,0 +1,28 @@
+name: drupak_starterkit
+type: theme
+'base theme': stable9
+version: 1.0.0
+libraries:
+  - drupak_starterkit/base
+  - drupak_starterkit/messages
+  - core/normalize
+  - drupak_starterkit/main
+  - drupak_starterkit/alpine
+libraries-extend:
+  user/drupal.user:
+    - drupak_starterkit/user
+  core/drupal.dropbutton:
+    - drupak_starterkit/dropbutton
+  core/drupal.dialog:
+    - drupak_starterkit/dialog
+  file/drupal.file:
+    - drupak_starterkit/file
+  core/drupal.item-list:
+    - drupak_starterkit/item-list
+  core/drupal.progress:
+    - drupak_starterkit/progress
+  core/drupal.tablesort:
+    - drupak_starterkit/drupal.tablesort
+description: ''
+core_version_requirement: ^11
+generator: 'starterkit_theme:11.3.3'

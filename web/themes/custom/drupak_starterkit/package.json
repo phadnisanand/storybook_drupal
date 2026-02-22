@@ -1,0 +1,14 @@
+{
+  "name": "drupak_starterkit",
+  "version": "1.0.0",
+  "description": "drupak_starterkit theme, generated from starterkit_theme. Additional information on generating themes can be found in the [Starterkit documentation](https://www.drupal.org/docs/core-modules-and-themes/core-themes/starterkit-theme).",
+  "main": "postcss.config.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+	"build:dev": "webpack --config webpack.config.js --mode development",
+	"start": "webpack --watch",
+	"start:dev": "webpack --watch --mode development"
+  },
+  "author": "",
+  "license": "ISC"
+}
